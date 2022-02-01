@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "express": "~4.16.0",
-    "jest": "^24.7.1"
+    "jest": "^27.4.7"
   }
 }
