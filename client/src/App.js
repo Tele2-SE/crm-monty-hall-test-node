@@ -6,7 +6,7 @@ import ServerHealth from './serverhealth/ServerHealth';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div data-testid="App" className="App">
         <header className="App-header">
           <ServerHealth/>
           <img src={logo} className="App-logo" alt="logo" />
