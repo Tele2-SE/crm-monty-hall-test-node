@@ -1,10 +1,10 @@
 # crm-monty-hall-test
 
-Ett förberett projekt baserat på create-react-app och express hello world (med några tillägg). 
+Ett förberett projekt baserat på create-react-app och express hello world (med några tillägg).
 
 
 ### Systemkrav
-[NodeJS](https://nodejs.org)  
+[NodeJS](https://nodejs.org)
 
 
 ### Development mode
@@ -19,8 +19,8 @@ npm start
 ```
 cd server
 npm install
-npm start   
+npm start
 ```
 
 #### Verifikation
-React appen har en komponent som pollar spring boot appens health endpoint och skriver ut svaret. Det som skrivs ut ska vara "UP" om allt funkar som det ska.
+React appen har en komponent som pollar appens health endpoint och skriver ut svaret. Det som skrivs ut ska vara "UP" om allt funkar som det ska.
