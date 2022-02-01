@@ -1,4 +1,7 @@
 #Tele2 Customer Care - Tekniskt Prov
+
+Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihåg att ha kul :)
+
 ###Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
 I spelet får spelaren se tre stängda dörrar - bakom en finns en bil, och bakom de två andra finns getter. Spelet börjar med att spelaren får välja en dörr, utan att öppna den. Därefter öppnar presentatören, som vet vad som finns bakom dörrarna, en av de två resterande dörrarna (men aldrig den med bilen) och visar att denna dörr inte innehåller vinsten. Spelaren får då ytterligare ett val, nämligen att byta dörr.
@@ -10,7 +13,7 @@ Din uppgift är att bygga en applikation som bevisar paradoxen. Applikationen sk
 Det tekniska kravet för lösningen är att bygga en React app med nodejs eller java backend. Nyttja gärna något av våra förberedda projekt: https://github.com/Tele2-SE för att komma igång snabbt. I gränssnittet ska man kunna mata in en siffra för antal simuleringar och välja om man vill byta dörr eller ej. Därefter kunna trycka på en knapp som startar simuleringen genom att anropa backend som utför det begärda antalet simulerade spel. När backend svarar så skrivs resultatet av simuleringarna ut.
 
 ###Inlämning
-När du anser dig vara klar, gör en pull request mot detta repo så kikar vi igenom det och bokar in en tidsslot för genomgång tillsammans med dig. Under genomgången kommer vi be dig att gå igenom din applikation som om det vore en överlämning till ett annat team.
+När du anser dig vara klar, gör en pull request mot detta repo så kikar vi igenom det och bokar in en tidsslot för genomgång tillsammans med dig. Under genomgången kommer vi be dig att gå igenom din applikation.
 
 
 ### Systemkrav
