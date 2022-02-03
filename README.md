@@ -11,7 +11,7 @@ Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihå
 3. Gör dina ändringar
 4. Commita och pusha dina ändringar
 5. Skapa en pull request mot detta repo (Tele2-SE/crm-monty-hall-test-node)
-6. Nu är du klar, vi kikar igenom dina ändringar och bokar in en tid
+6. Nu är du klar kikar vi igenom dina ändringar och bokar in en tid
 
 ### Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
