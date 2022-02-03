@@ -2,6 +2,11 @@
 
 Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihåg att ha kul :)
 
+## Komma igång
+
+Börja med att forka detta repo
+<img width="1243" alt="Screenshot 2022-02-03 at 16 25 45" src="https://user-images.githubusercontent.com/13869296/152373025-3eba1e91-8caf-4b38-bd39-bbca6502ca59.png">
+
 ### Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
 I spelet får spelaren se tre stängda dörrar - bakom en finns en bil, och bakom de två andra finns getter. Spelet börjar med att spelaren får välja en dörr, utan att öppna den. Därefter öppnar presentatören, som vet vad som finns bakom dörrarna, en av de två resterande dörrarna (men aldrig den med bilen) och visar att denna dörr inte innehåller vinsten. Spelaren får då ytterligare ett val, nämligen att byta dörr.
