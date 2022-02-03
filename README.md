@@ -4,8 +4,14 @@ Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihå
 
 ## Komma igång
 
-Börja med att forka detta repo
+1. Börja med att forka detta repo
 <img width="1243" alt="Screenshot 2022-02-03 at 16 25 45" src="https://user-images.githubusercontent.com/13869296/152373025-3eba1e91-8caf-4b38-bd39-bbca6502ca59.png">
+
+2. Klona ner repot från ditt konto
+3. Gör dina ändringar
+4. Commita och pusha dina ändringar
+5. Skapa en pull request mot detta repo (Tele2-SE/crm-monty-hall-test-node)
+6. Nu är du klar, vi kikar igenom dina ändringar och bokar in en tid
 
 ### Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
@@ -16,9 +22,6 @@ Frågeställningen är om chanserna att vinna ökar om spelaren byter dörr. Kä
 Din uppgift är att bygga en applikation som bevisar paradoxen. Applikationen ska kunna simulera ett givet antal spel där man på förhand har bestämt om man byter dörr eller inte.
 
 Det tekniska kravet för lösningen är att bygga en React app med nodejs eller java backend. Nyttja gärna något av våra förberedda projekt: https://github.com/Tele2-SE för att komma igång snabbt. I gränssnittet ska man kunna mata in en siffra för antal simuleringar och välja om man vill byta dörr eller ej. Därefter kunna trycka på en knapp som startar simuleringen genom att anropa backend som utför det begärda antalet simulerade spel. När backend svarar så skrivs resultatet av simuleringarna ut.
-
-### Inlämning
-När du anser dig vara klar, gör en pull request mot detta repo så kikar vi igenom det och bokar in en tidsslot för genomgång tillsammans med dig. Under genomgången kommer vi be dig att gå igenom din applikation.
 
 
 ### Systemkrav
