@@ -37,3 +37,7 @@ npm start
 
 #### Verifikation
 React appen har en komponent som pollar appens health endpoint och skriver ut svaret. Det som skrivs ut ska vara "UP" om allt funkar som det ska.
+
+#### Manges ändringar
+
+Här är mina ändringar
