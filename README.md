@@ -27,7 +27,7 @@ Användaren ska kunna spela spelet manuellt
 Användaren ska kunna simulera ett givet antal spel där man på förhand har bestämt om man byter dörr eller inte.
 
 Som stöd har du
-1. Bifogat designförslag.
+1. Bifogat designförslag
 2. Backend implementerad
 
 Backend når du på följande paths
