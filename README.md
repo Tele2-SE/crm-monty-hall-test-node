@@ -21,7 +21,7 @@ Frågeställningen är om chanserna att vinna ökar om spelaren byter dörr. Kä
 
 Din uppgift är att bygga en applikation som bevisar paradoxen. Applikationen ska kunna simulera ett givet antal spel där man på förhand har bestämt om man byter dörr eller inte.
 
-Det tekniska kravet för lösningen är att bygga en React app med nodejs eller java backend. Nyttja gärna något av våra förberedda projekt: https://github.com/Tele2-SE för att komma igång snabbt. I gränssnittet ska man kunna mata in en siffra för antal simuleringar och välja om man vill byta dörr eller ej. Därefter kunna trycka på en knapp som startar simuleringen genom att anropa backend som utför det begärda antalet simulerade spel. När backend svarar så skrivs resultatet av simuleringarna ut.
+Det tekniska kravet för lösningen är att bygga en React app med nodejs backend. Nyttja gärna något av våra förberedda projekt: https://github.com/Tele2-SE för att komma igång snabbt. I gränssnittet ska man kunna mata in en siffra för antal simuleringar och välja om man vill byta dörr eller ej. Därefter kunna trycka på en knapp som startar simuleringen genom att anropa backend som utför det begärda antalet simulerade spel. När backend svarar så skrivs resultatet av simuleringarna ut.
 
 
 ### Systemkrav
