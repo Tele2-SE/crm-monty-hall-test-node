@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server",
+    "start": "nodemon ./server",
     "test": "jest"
   },
   "dependencies": {
     "express": "~4.16.0",
     "jest": "^27.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
