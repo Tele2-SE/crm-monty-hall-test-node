@@ -21,4 +21,5 @@ const simulate = function (simCount, switchDoor) {
 };
 
 module.exports = (simCount, switchDoor) => simulate(simCount, switchDoor);
+module.exports = (switchDoor) => simulate1(switchDoor);
 
