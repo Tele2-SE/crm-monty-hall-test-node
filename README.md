@@ -29,12 +29,14 @@ Det tekniska kravet för lösningen är att bygga en React app med nodejs backen
 
 
 ### Development mode
+
 #### Start client
 ```
 cd client
 npm install
 npm start
 ```
+Klienten nås via --> http://localhost:3012
 
 #### Start server
 ```
@@ -42,6 +44,7 @@ cd server
 npm install
 npm start
 ```
+Servern nås via -->http://localhost:3011/
 
 #### Verifikation
 React appen har en komponent som pollar appens health endpoint och skriver ut svaret. Det som skrivs ut ska vara "UP" om allt funkar som det ska.
