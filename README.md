@@ -6,11 +6,12 @@ Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihå
 
 1. Börja med att forka detta repo
 <img width="1243" alt="Screenshot 2022-02-03 at 16 25 45" src="https://user-images.githubusercontent.com/13869296/152373025-3eba1e91-8caf-4b38-bd39-bbca6502ca59.png">
+
 2. Klona ner repot från ditt konto
 3. Gör dina ändringar
 4. Commita och pusha dina ändringar
 5. Skapa en pull request mot detta repo (Tele2-SE/crm-monty-hall-test-node)
-6. Nu är du klar kikar vi igenom dina ändringar och bokar in en tid
+6. Nu är du klar kikar vi igenom dina ändringar och bokar in en tid för att gå igenom din lösning.
 
 ### Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
