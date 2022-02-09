@@ -5,13 +5,11 @@ Läs igenom hela detta dokument noggrant så du inte missar någonting. Kom ihå
 ## Komma igång
 
 1. Börja med att forka detta repo
-<img width="1243" alt="Screenshot 2022-02-03 at 16 25 45" src="https://user-images.githubusercontent.com/13869296/152373025-3eba1e91-8caf-4b38-bd39-bbca6502ca59.png">
-
 2. Klona ner repot från ditt konto
 3. Gör dina ändringar
 4. Commita och pusha dina ändringar
 5. Skapa en pull request mot detta repo (Tele2-SE/crm-monty-hall-test-node)
-6. Nu är du klar kikar vi igenom dina ändringar och bokar in en tid för att gå igenom din lösning.
+6. Nu är du klar kikar vi igenom dina ändringar och bokar in en tid för att gå igenom din lösning. Vi kommer be dig gå igenom din kod som om det vore en överlämning till ett annat team.
 
 ### Uppgiften
 Monty Hall-problemet är ett spelteoretiskt problem som bygger på sannolikheter. Det är löst baserat på det amerikanska spelet "Let's make a deal". Namnet kommer från spelets presentatör, Monty Hall.
@@ -19,21 +17,27 @@ I spelet får spelaren se tre stängda dörrar - bakom en finns en bil, och bako
 
 Frågeställningen är om chanserna att vinna ökar om spelaren byter dörr. Källa: https://sv.wikipedia.org/wiki/Monty_Hall-problemet
 
-Din uppgift är att
+####Din uppgift är att
 
-1. Bygga spelets gränsnitt.
-Användaren ska kunna spela spelet manuellt
-
-2. Implementera en kontrollfunktion som bevisar paradoxen.
+Implementera ett gränsnitt för kontrollfunktionen som bevisar paradoxen.
 Användaren ska kunna simulera ett givet antal spel där man på förhand har bestämt om man byter dörr eller inte.
 
-Som stöd har du
-1. Bifogat designförslag
-2. Backend implementerad
 
-Backend når du på följande paths
+Som stöd har du
+- [Designförslag](https://www.figma.com/file/fe9o2wW64UJsthdJFBYeXW/Code-Test-UI?node-id=20%3A105)
+
+Designen är ett stöd, utgå från den eller implementera något eget.
+
+- Backend implementerad
+
+Om du behöver gör du ändringar.
+
+Backend nås på följande paths
+```
 localhost:3011/simulations/:simCount/:switchDoor
+
 localhost:3011/simulate/:switchDoor
+```
 
 Det tekniska kravet för lösningen är att bygga en React app med nodejs backend.
 
