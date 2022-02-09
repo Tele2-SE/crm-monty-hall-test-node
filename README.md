@@ -17,7 +17,7 @@ I spelet får spelaren se tre stängda dörrar - bakom en finns en bil, och bako
 
 Frågeställningen är om chanserna att vinna ökar om spelaren byter dörr. Källa: https://sv.wikipedia.org/wiki/Monty_Hall-problemet
 
-####Din uppgift är att
+#### Din uppgift är att
 
 Implementera ett gränsnitt för kontrollfunktionen som bevisar paradoxen.
 Användaren ska kunna simulera ett givet antal spel där man på förhand har bestämt om man byter dörr eller inte.
