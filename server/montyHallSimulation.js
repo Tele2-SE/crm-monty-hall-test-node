@@ -13,10 +13,8 @@ const simulate1 = (switchDoor) => {
 
 const simulate = function (simCount, switchDoor) {
   return Array.from({length: simCount}, (_, i) => i)
-    .filter(() => simulate1(switchDoor) === true)
+    .filter(() => simulate1(switchDoor) == true)
     .length
 };
 
 module.exports = (simCount, switchDoor) => simulate(simCount, switchDoor);
-
-
