@@ -5,7 +5,6 @@ const useServerHealth = () => {
   const [serverHealth, setServerHealth] = useState('UNKNOWN')
 
   useEffect(() => {
-
     const interval = setInterval(() => {
       axios.get('/health')
         .then(res => {
@@ -20,6 +19,7 @@ const useServerHealth = () => {
           setServerHealth('DOWN');
         });
     }, 3000);
+
     return () => clearInterval(interval);
   }, [])
 

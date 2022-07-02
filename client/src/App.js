@@ -9,6 +9,7 @@ import {
   ToggleButtonGroup,
   Typography,
 } from "@mui/material";
+import ServerHealth from "./serverhealth/ServerHealth";
 
 const App = () => {
   const [state, setState] = useState({
@@ -95,6 +96,7 @@ const App = () => {
             goatsPercent={state.goatsPercent}
           />
         ) : null}
+        <ServerHealth />
       </Box>
     </Box>
   )
