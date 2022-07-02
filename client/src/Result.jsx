@@ -7,6 +7,7 @@ import PetsIcon from '@mui/icons-material/Pets';
 export const Result = (props) => (
   <Box
     display="flex"
+    paddingTop="12px"
     flexDirection="row"
   >
     <ResultItem

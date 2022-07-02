@@ -53,13 +53,15 @@ const App = () => {
     <Box
       display="flex"
       width="80%"
-      margin="auto"
+      marginTop="32px"
+      marginRight="auto"
+      marginLeft="auto"
     >
       <Box
         display="flex"
         flex={1}
         flexDirection="column"
-        gap="16px"
+        gap="24px"
         justifyContent="center"
       >
         <Typography variant="h3">Simulate the game</Typography>

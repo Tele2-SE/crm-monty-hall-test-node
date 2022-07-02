@@ -6,10 +6,11 @@ export const ResultItem = (props) => (
     display="flex"
     flex={1}
     flexDirection="column"
+    gap="8px"
     alignItems="center"
   >
-    <props.Icon />
+    <props.Icon fontSize="large" />
     <Typography variant="body2">Number of {props.label}</Typography>
-    <Typography>{props.amount} ({props.percent}%)</Typography>
+    <Typography variant="h4">{props.amount} ({props.percent}%)</Typography>
   </Box>
 )
